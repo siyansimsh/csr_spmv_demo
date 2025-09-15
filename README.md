@@ -30,3 +30,8 @@ C:\msys64\mingw64\bin\gcc.exe csr_spmv_demo.c -O2 -Wall -Wextra -o csr_spmv_demo
 
 # 執行
 .\csr_spmv_demo.exe
+```
+## 延伸
+- 可以改矩陣結構（對角帶寬更寬，或隨機稀疏）
+- 可以從檔案讀取矩陣（Matrix Market 格式）
+- 可以測試多向量 SpMM
